@@ -1,0 +1,242 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 10px;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.m1 {
+  background-color: black;
+}
+
+.heading {
+  text-align: center;
+  font-size: 5rem;
+  padding: 2rem;
+  color: rgb(138, 138, 240);
+}
+
+.p1 {
+  height: 50rem;
+  width: 40rem;
+  background-color: rgb(168, 194, 240);
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.box1 {
+  height: 4rem;
+  width: 35rem;
+  margin: auto;
+  padding-top: 2.5rem;
+}
+
+input[type="search"] {
+  height: 4rem;
+  width: 28rem;
+  border-radius: 1rem 0rem 0rem 1rem;
+  font-size: 1.8rem;
+  padding-left: 1rem;
+  border: rgb(107, 111, 111) solid 0.1rem;
+  color: rgb(31, 31, 249);
+}
+
+input[type="submit"] {
+  height: 3.9rem;
+  width: 7rem;
+  font-size: 1.7rem;
+  border-radius: 0rem 1rem 1rem 0rem;
+  border: rgb(107, 111, 111) solid 0.1rem;
+  background-color: rgb(123, 123, 235);
+  color: white;
+  cursor:pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(81, 81, 237);
+}
+
+.box2 {
+  box-shadow:0rem 0rem 5px 0.5px rgb(135, 135, 237);
+  border-radius:10px;
+  height: 7rem;
+  width: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding:0.5rem;
+}
+
+.weather-image {
+  height: 7rem;
+  width: 14rem;
+}
+
+.weather-image img {
+  height: 9rem;
+  width: 9rem;
+}
+
+.weather-text {
+  font-size: 3rem;
+  padding: 2.6rem 0rem 0rem 3rem;
+}
+
+.box3 {
+  box-shadow:0rem 0rem 5px 0.5px rgb(135, 135, 237);
+  border-radius:10px;
+  height: 4rem;
+  width: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding:0.5rem;
+}
+
+.box4 {
+  box-shadow:0rem 0rem 5px 0.5px rgb(135, 135, 237);
+  border-radius:10px;
+  height: 9rem;
+  width: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 2.7rem;
+  padding:0.5rem;
+}
+
+.sp1 {
+  font-size: 1.7rem;
+}
+
+.mtemp {
+  margin-top: 1.8rem;
+}
+
+.temp {
+  font-size: 2.5rem;
+}
+
+.mintemp {
+  font-size: 1.6rem;
+}
+.maxtemp {
+  font-size: 2.4rem;
+}
+sup{font-size: 1.4rem;}
+
+.box5 {
+  box-shadow:0rem 0rem 5px 0.5px rgb(135, 135, 237);
+  border-radius:10px;
+  height: 6rem;
+  width: 30rem;
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  padding:0.5rem;
+}
+
+.humidity {
+  height: 6rem;
+  width: 14rem;
+  display: flex;
+}
+
+.child {
+  height: 6rem;
+  width: 5rem;
+}
+
+.child1 {
+  height: 6rem;
+  width: 11rem;
+}
+
+.image1 {
+  font-size: 5rem;
+  color: rgb(85, 85, 240);
+}
+
+.image2 {
+  font-size: 4.5rem;
+  color: rgb(85, 85, 240);
+}
+
+.sp2 {
+  margin-top: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.toggle {
+  height: 3rem;
+  width: 6rem;
+  background-color: rgb(137, 137, 227);
+  border-radius: 2.5rem;
+  position: relative;
+  float: right;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}
+
+.toggle1 {
+  height: 2rem;
+  width: 2rem;
+  background-color: rgb(148, 238, 148);
+  border-radius: 50%;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  transition-duration: 0.5s;
+}
+
+.x1 {
+  left: 3.5rem;
+  background-color: tomato;
+}
+
+.x2 {
+  background-color: white;
+}
+
+.data {
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 4rem;
+}
+
+.loader {
+  height: 7.5rem;
+  width: 7.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader img {
+  height: 7.5rem;
+  width: 7.5rem;
+}
+
+@media only screen and (max-width:435px) {
+  html {
+      font-size: 8.5px
+  }
+}
+
+@media only screen and (max-width:370px) {
+  html {
+      font-size: 7.6px;
+  }
+}
